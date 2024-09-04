@@ -53,9 +53,10 @@ onMounted(() => {
 
 <style scoped>
 .hero-title {
+  padding-top: 100px;
   font-family: 'Monaco', Consolas, 'Lucida Console', monospace;
   font-size: 4.5em;
-  color: #8ba6ba; /* Asumiendo que $purple es un color definido, reemplázalo con el valor hexadecimal o rgb correcto */
+  color: #8ba6ba;
 }
 
 .hero-title:before {
@@ -63,7 +64,7 @@ onMounted(() => {
 }
 
 .hero-title span {
-  background-color: #8ba6ba; /* Asumiendo que $purple es púrpura, ajusta según sea necesario */
+  background-color: #8ba6ba; 
   animation: caret 1s steps(1) infinite;
 }
 
@@ -74,7 +75,7 @@ onMounted(() => {
 }
 
 /* Media query para dispositivos móviles */
-@media (max-width: 767px) { /* Ajusta este valor según tu definición de 'mobile' */
+@media (max-width: 767px) { 
   .hero-title {
     font-size: 2.3em;
   }

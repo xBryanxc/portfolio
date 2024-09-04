@@ -44,17 +44,15 @@
   
   <style scoped>
 .about-container {
-  margin: 20vh auto 0;
+  margin: 8vh auto 0;
   width: 100%;
-  max-width: 800px; /* Increased from 600px */
-  padding: 0 20px; /* Added padding for smaller screens */
 }
 
 .terminal {
   width: 100%;
   background-color: #5a5d7a;
   border-radius: 10px;
-  overflow: hidden; /* To ensure the rounded corners are visible */
+  overflow: hidden;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
     0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
 }
